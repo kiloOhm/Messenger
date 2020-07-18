@@ -1,4 +1,5 @@
 ﻿// Requires: GUICreator
+//WIP!!!
 
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using UnityEngine;
 namespace Oxide.Plugins
 {
     [Info("Messenger", "OHM", "0.1.0")]
-    [Description("Template")]
+    [Description("UI based ingame messenger")]
     partial class Messenger : RustPlugin
     {
         private static Messenger PluginInstance;
